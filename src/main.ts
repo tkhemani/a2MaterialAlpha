@@ -1,7 +1,7 @@
 import {bootstrap} from 'angular2/platform/browser';
-import {DemoApp} from './demo-app/demo-app';
+import {Hello} from './hello-app/hello-app';
 import {ROUTER_PROVIDERS} from 'angular2/router';
 
-bootstrap(DemoApp, [
+bootstrap(Hello, [
   ROUTER_PROVIDERS
 ]);
